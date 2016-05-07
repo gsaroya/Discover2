@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_friend_name"
+        android:text="WHat is this"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find"
+        android:id="@+id/list_item_ask_friend_button"
+        android:layout_alignTop="@id/list_item_friend_name"
+        android:layout_toRightOf="@+id/list_item_friend_name" />
 
 </RelativeLayout>
